@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ProTrade - Your Trading Companion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="navbar">
+      <div class="nav-logo">
+        <h2>ProTrade</h2>
+      </div>
+      <div class="nav-menu">
+        <a href="market.html">Market</a>
+        <a href="w.html">Portfolio</a>
+        <a href="watchlist.html">Watchlist</a>
+        <a href="news.html">News</a>
+      </div>
+    
+      <div class="nav-buttons">
+        <button onclick="location.href='http://localhost/login_register/register.html'">Sign In</button>
+        <button onclick="location.href='http://localhost/login_register/index.html'">Log In</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="hero-left">
+      <img src="Neostox-image-banner.png" alt="Trading Illustration">
+    </div>
+    <div class="hero-right">
+      <h1>ProTrade</h1>
+      <p>Trade stocks with virtual money using real-time market data. Start your journey towards financial mastery today!</p>
+      <div class="stock-ticker">
+       <marquee>📈 RELIANCE: ₹2500 ▲ +1.50% | 📉 TCS: ₹3600 ▼ -0.75% | 📈 INFY: ₹1550 ▲ +0.85%</marquee>
+      </div>
+      <button class="cta-btn" onclick="location.href='http://localhost/login_register/register.html'">Get Started</button>
+    </div>
+  </div>
+
+  <!-- Market Section -->
+  <div class="market-sec">
+    <div class="box">
+      <div class="video-container">
+          <video autoplay loop muted>
+              <source src="stock.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+          <div class="content">Explore Market Trends</div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="box-content">
+        <div class="box-img" style="background-image: url('landing.png')">
+          <h4>Top Gainers</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Meet the Team Section -->
+  <section class="team-section">
+    <h2>Meet the Team</h2>
+    <div class="team-container">
+      <div class="team-member">
+        <img src="ayush.jpg" alt="Developer 1">
+        <h3>Ayush</h3>
+        <p>Full-Stack Developer</p>
+      </div>
+      <div class="team-member">
+        <img src="sachin.jpg" alt="Developer 2">
+        <h3>Sachin </h3>
+        <p>Full Stack Developer</p>
+      </div>
+    </div>
+  </section>
+
+   <!-- Footer Section -->
+   <footer>
+    <div class="foot-panel1">Back to top</div>
+    <div class="foot-panel2">
+      <ul>
+        <p>About Us</p>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+        <a href="#">Investor Relations</a>
+      </ul>
+      <ul>
+        <p>Support</p>
+        <a href="#">Help Center</a>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+      </ul>
+    </div>
+    <div class="social-icons">
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <div class="copyright">&copy; 2025 ProTrade</div>
+  </footer>
+
+</body>
+</html>
